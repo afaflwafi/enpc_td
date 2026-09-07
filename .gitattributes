@@ -1,1 +1,6 @@
-DATA/dvf_idf.csv filter=lfs diff=lfs merge=lfs -text
+# Données du projet : stockées en Git LFS
+DATA/** filter=lfs diff=lfs merge=lfs -text
+
+# Corrigés : stockés en Git LFS pour permettre un fetch sélectif
+# (les notebooks étudiants ne récupèrent que DATA/, pas les corrigés)
+TD/*_correction.ipynb filter=lfs diff=lfs merge=lfs -text
