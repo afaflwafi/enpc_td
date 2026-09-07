@@ -3,8 +3,6 @@
 Les notebooks et les données sont hébergés sur ce dépôt GitHub :
 **https://github.com/afaflwafi/enpc_td**
 
-Les jeux de données sont versionnés avec **Git LFS** directement dans le dépôt
-(dossier `DATA/`). Il n'y a plus de raccourci Google Drive à créer.
 
 ## Ouvrir un notebook
 
@@ -27,20 +25,15 @@ répertoire de travail de Colab, `/content`). La variable `DATA_PATH` en tête d
 notebook pointe déjà au bon endroit — vérifiez-la si vous avez modifié
 l'arborescence.
 
-> Le fichier complet `DATA/dvf_idf.csv` fait ~340 Mo : le premier `git lfs pull`
-> peut prendre une minute ou deux.
-
 ## Documentation du jeu de données
 
 Le dossier `DOCUMENTATION/` contient la notice descriptive officielle du fichier
 DVF. Merci d'en prendre connaissance avant le TD1.
 
-## Chaque semaine
+## Chaque TD
 
 Répéter la procédure ci-dessus avec le notebook de la séance. Les notebooks des
 TD suivants réutilisent le dataset propre produit en fin de TD1
-(`DATA/dvf_idf_clean.csv`, également versionné en LFS).
-
 ---
 
 # Instructions pour le projet
